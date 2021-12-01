@@ -1,0 +1,6 @@
+framework module Pods_ToyCent_Example {
+  umbrella header "Pods-ToyCent_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

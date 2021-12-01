@@ -1,0 +1,22 @@
+{
+  "name": "ToyCent",
+  "version": "0.1.0",
+  "summary": "A short description of ToyCent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Faiz Mokhtar/ToyCent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Faiz Mokhtar": "mfmokhtar@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Faiz Mokhtar/ToyCent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ToyCent/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ToyCent (0.1.0)
+
+DEPENDENCIES:
+  - ToyCent (from `../`)
+
+EXTERNAL SOURCES:
+  ToyCent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ToyCent: 55b7f1baf7823d54554217d16641d46efd13a1b4
+
+PODFILE CHECKSUM: 343de191ee8645933c4fc74ff8c3a5ba958afc44
+
+COCOAPODS: 1.11.2

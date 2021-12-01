@@ -1,0 +1,6 @@
+framework module ToyCent {
+  umbrella header "ToyCent-umbrella.h"
+
+  export *
+  module * { export * }
+}
