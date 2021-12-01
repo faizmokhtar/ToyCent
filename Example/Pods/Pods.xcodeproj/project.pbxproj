@@ -12,7 +12,7 @@
 		1F282438BC927018696D98A37FA13CE2 /* Pods-ToyCent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E035E95A1B8B29E028B1649D4E15DAA9 /* Pods-ToyCent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		354A86EE3076962DBF7E4A1F0C54B003 /* Pods-ToyCent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B36D8D13EBCA8FB93A46AE9CC42A1A /* Pods-ToyCent_Tests-dummy.m */; };
 		5DBAFEDC4A65A4EA0B4111A3DDB513A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5F854C6A04DD7B469523EE20F7CBFFD5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF06E01D5A0963AAE0B0BD938C23AC /* ReplaceMe.swift */; };
+		5F854C6A04DD7B469523EE20F7CBFFD5 /* Cent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF06E01D5A0963AAE0B0BD938C23AC /* Cent.swift */; };
 		827FF2C1EB6AFD288C30C0AB05DFD810 /* ToyCent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F15BF8472A63411B09F56429DEBFE /* ToyCent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE9A9778DD23F0BC794D6ECCADEA94EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D457DB61F7AA44994DDD99B6947EEDCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		01A7E597E7728C590D5F8EB1915AAE9E /* Pods-ToyCent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToyCent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0957D6D887008D0E9B359E8610365B57 /* Pods-ToyCent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToyCent_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0A19FBC12CE7EF1A10672FD7DA351C31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0A19FBC12CE7EF1A10672FD7DA351C31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0BAA42BC0F3194579087816E31ACB3FC /* Pods-ToyCent_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ToyCent_Tests"; path = Pods_ToyCent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF42ECBD58CD6E52FBE23A91AE9841B /* Pods-ToyCent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToyCent_Example-dummy.m"; sourceTree = "<group>"; };
 		13408B8E6BB75866BF7ECFE10C6530BE /* Pods-ToyCent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToyCent_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,18 +56,18 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		793F8716E856C2D01D62448C505DCC9A /* Pods-ToyCent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToyCent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		872C31D5743EC5117EA7CE5AC943FE0B /* ToyCent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ToyCent.modulemap; sourceTree = "<group>"; };
-		91AF06E01D5A0963AAE0B0BD938C23AC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ToyCent/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91AF06E01D5A0963AAE0B0BD938C23AC /* Cent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cent.swift; path = ToyCent/Classes/Cent.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2D88584808F4CFD8B3EB68856B1C17 /* ToyCent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ToyCent-dummy.m"; sourceTree = "<group>"; };
 		B8B36D8D13EBCA8FB93A46AE9CC42A1A /* Pods-ToyCent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToyCent_Tests-dummy.m"; sourceTree = "<group>"; };
 		C2CF98156A10D2AD5567CD40AFC1DB63 /* Pods-ToyCent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToyCent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7C802782F6A539F6D8B627F654D98D5 /* Pods-ToyCent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToyCent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C87F15BF8472A63411B09F56429DEBFE /* ToyCent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToyCent-umbrella.h"; sourceTree = "<group>"; };
-		D0160B3FBA148F4C33A4B95DE108B29C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D0160B3FBA148F4C33A4B95DE108B29C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E035E95A1B8B29E028B1649D4E15DAA9 /* Pods-ToyCent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToyCent_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E22813597259D5019192241F513945E3 /* ToyCent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ToyCent.release.xcconfig; sourceTree = "<group>"; };
 		EF08E1BAED29151199D3A7292E918206 /* ToyCent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ToyCent.debug.xcconfig; sourceTree = "<group>"; };
-		F018073D5CFCB5FD06097382EE69FD37 /* ToyCent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ToyCent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F018073D5CFCB5FD06097382EE69FD37 /* ToyCent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ToyCent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F4EABBA9E7539E1CF9C04CFC6D633567 /* Pods-ToyCent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToyCent_Example.modulemap"; sourceTree = "<group>"; };
 		FB4100A18B64A8EDA08124B61748E6B0 /* ToyCent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ToyCent; path = ToyCent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -163,7 +163,7 @@
 		A2965C8BC081D393B2D66E5DF1C55F99 /* ToyCent */ = {
 			isa = PBXGroup;
 			children = (
-				91AF06E01D5A0963AAE0B0BD938C23AC /* ReplaceMe.swift */,
+				91AF06E01D5A0963AAE0B0BD938C23AC /* Cent.swift */,
 				63F9FE8C89A0A3CBD65D8608225CC5DC /* Pod */,
 				FEB1C9F34D8B579BBDC74531B87C468C /* Support Files */,
 			);
@@ -383,7 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F854C6A04DD7B469523EE20F7CBFFD5 /* ReplaceMe.swift in Sources */,
+				5F854C6A04DD7B469523EE20F7CBFFD5 /* Cent.swift in Sources */,
 				11DE7B4FF5274131E040BAC83E9880FE /* ToyCent-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -621,8 +621,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

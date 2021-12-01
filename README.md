@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ToyCent.svg?style=flat)](https://cocoapods.org/pods/ToyCent)
 [![Platform](https://img.shields.io/cocoapods/p/ToyCent.svg?style=flat)](https://cocoapods.org/pods/ToyCent)
 
+Just a toy project to test integrating Carthage in Cocoapods project. Not for production
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

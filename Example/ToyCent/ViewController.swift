@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import ToyCent
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let amount = 20.35
+        let amountInCent = Cent(amount: amount)
+        print(amountInCent.value)
     }
 
     override func didReceiveMemoryWarning() {
