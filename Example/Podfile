@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ToyCent_Example' do
+  pod 'ToyCent', :path => '../'
+
+  target 'ToyCent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
